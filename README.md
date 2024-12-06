@@ -2,13 +2,13 @@
 
 The assignment of values (the `effect` object with attributes like `attract`, `drive`, `dominant`, `deviance`, or `affect`) is subjective and depends on the meaning or intent of each question. Here's the logic I used to determine how each question is assigned a value:
 
-### **1\. Understanding the Categories:**
+### **1\. Understanding the Categories & Context-Driven Mapping:**
 
-* **Attract:** Measures preferences or interests in certain traits, scenarios, or personalities that make someone feel drawn to another person.  
-* **Drive:** Relates to libido, frequency, or intensity of sexual thoughts, actions, and desires.  
-* **Dominant:** Relates to preferences for control, power dynamics, or submissiveness in sexual or intimate relationships.  
-* **Deviance:** Measures openness or curiosity about non-mainstream sexual behaviors or fetishes.  
-* **Affect:** Measures emotional or stress-related aspects of sexual activity and its importance relative to physical or emotional cues.
+* **Attract**: Questions about attraction to specific traits (e.g., "confidence, charisma, and personality") are assigned values reflecting alignment with diverse attraction preferences. Positive values are assigned for questions that broaden attraction to these traits.  
+* **Drive**: Questions about libido, masturbation, or an overwhelming sexual urge directly map to higher `drive` values, while indifference or repulsion decreases it.  
+* **Dominant**: Questions about taking charge or commanding behavior align positively with dominance, while enjoying submission or preferring equality leads to neutral or negative effects.  
+* **Deviance**: Questions exploring unconventional or taboo sexual interests are assigned positive values for `deviance`. Discomfort with experimentation reflects negative values.  
+* **Affect**: Questions addressing emotional connections or stress relief through intimacy positively affect `affect`, while focus on purely physical pleasure or casual encounters reduces it.
 
 ### **2\. Interpreting the Questions:**
 
@@ -55,11 +55,38 @@ Each question is read carefully to determine:
     → **Value: \-1 for affect**  
     Indicates a preference for physical or explicit stimuli over emotional connection, detracting from the `affect` category.
 
+### **4\. Balancing Traits Across the Spectrum**
+
+To create a balanced representation:
+
+* **Varied Effects**: Not all questions align perfectly with the extreme ends of a trait. Some are assigned neutral or weaker values to ensure nuanced results.  
+* **Opposing Traits**: For some categories, certain behaviors oppose the trait (e.g., aversion to dominance or intimacy), resulting in negative effects.
+    
+
+### **Example Assignments:**
+
+| Question | Category | Effect Rationale |
+| ----- | ----- | ----- |
+| "I often fantasize about role-playing and costumes." | `attract` | Role-playing suggests creativity and attraction to novelty, assigned `+1`. |
+| "I masturbate at least once a day." | `drive` | High libido aligns with increased drive, assigned `+1`. |
+| "I feel immensely excited by the idea of command." | `dominant` | Clear alignment with dominance, assigned `+1`. |
+| "I consider myself vanilla." | `deviance` | Opposes deviance; preference for simplicity or norms, assigned `-2`. |
+| "I notice self-esteem fluctuations based on praise." | `affect` | Emotional influence suggests higher affect sensitivity, assigned `+1`. |
+
+
+
 ---
 
-### **4\. Edge Cases:**
+### **5\. Edge Cases:**
 
 For ambiguous questions (e.g., involving taboo topics or mixed emotional contexts), I leaned on a cautious assignment:
 
 * Avoided extreme positive or negative values unless the context was clear.  
 * For openness without action (e.g., "intrigued but do not necessarily want to act"), assigned smaller positive values to the corresponding trait.
+
+
+
+
+
+
+
