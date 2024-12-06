@@ -23,7 +23,7 @@ questions = [
     },
     {
         "id": 4,
-        "question": "The benis only makes it better! (I like dick)",
+        "question": "I feel like the penis only makes it better! (I like dick)",
         "effect": {
             "attract": 1
         }
@@ -255,7 +255,7 @@ questions = [
     },
     {
         "id": 36,
-        "question": "Sex should be a romantic topic.",
+        "question": "I think sex should be a romantic topic.",
         "effect": {
             "affect": 1
         }
@@ -269,7 +269,7 @@ questions = [
     },
     {
         "id": 38,
-        "question": "Sex is more about the pleasure than the intimacy.",
+        "question": "I believe sex is more about the pleasure than the intimacy.",
         "effect": {
             "affect": -1
         }
