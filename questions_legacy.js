@@ -1,4 +1,4 @@
-questions = [
+const questions = [
     // Attract
     {
         "id": 1,
@@ -23,7 +23,7 @@ questions = [
     },
     {
         "id": 4,
-        "question": "I feel like the penis only makes it better! (I like dick)",
+        "question": "I feel like the benis only makes it better! (I like dick).",
         "effect": {
             "attract": 1
         }
@@ -68,6 +68,27 @@ questions = [
         "question": "I find myself more drawn to traditionally feminine traits.",
         "effect": {
             "attract": -1
+        }
+    },
+    {
+        "id": 41,
+        "question": "I could imagine myself in a sexual scenario with someone older or younger than me.",
+        "effect": {
+            "attract": 0
+        }
+    },
+    {
+        "id": 42,
+        "question": "I often fantasize about role-playing and costumes when thinking about attraction.",
+        "effect": {
+            "attract": 1
+        }
+    },
+    {
+        "id": 43,
+        "question": "I find myself more drawn to confidence, charisma, and personality over physical appearance.",
+        "effect": {
+            "attract": 1
         }
     },
 
@@ -135,6 +156,27 @@ questions = [
             "drive": -1
         }
     },
+    {
+        "id": 44,
+        "question": "I find great pleasure in the thought of masturbating.",
+        "effect": {
+            "drive": 1
+        }
+    },
+    {
+        "id": 45,
+        "question": "I sometimes feel like my libido is out of control, making it hard for me to ignore sexual urges.",
+        "effect": {
+            "drive": 1
+        }
+    },
+    {
+        "id": 46,
+        "question": "I am likely to disregard boundaries if a partner initiates intimacy at the wrong time or place.",
+        "effect": {
+            "drive": -1
+        }
+    },
 
     // Dominant
     {
@@ -177,6 +219,27 @@ questions = [
         "question": "I like exploring submissive tendencies in relationships.",
         "effect": {
             "dominant": -1
+        }
+    },
+    {
+        "id": 47,
+        "question": "I prefer taking charge and making decisions regarding sex in a relationship.",
+        "effect": {
+            "dominant": 1
+        }
+    },
+    {
+        "id": 48,
+        "question": "I feel immensely excited by the idea of being able to command someone sexually.",
+        "effect": {
+            "dominant": 1
+        }
+    },
+    {
+        "id": 49,
+        "question": "I gain immense satisfaction from occasionally engaging in BDSM activities.",
+        "effect": {
+            "dominant": 1
         }
     },
 
@@ -244,6 +307,27 @@ questions = [
             "deviance": 0
         }
     },
+    {
+        "id": 50,
+        "question": "I would find engaging in group sexual encounters thrilling.",
+        "effect": {
+            "deviance": 1
+        }
+    },
+    {
+        "id": 51,
+        "question": "I am fascinated by certain aspects of fetishism or bondage, even though I’ve never tried them.",
+        "effect": {
+            "deviance": 1
+        }
+    },
+    {
+        "id": 52,
+        "question": "I am intrigued by the taboo nature of some fetishes (e.g., incest, bestiality) but do not necessarily want to act on them.",
+        "effect": {
+            "deviance": 1
+        }
+    },
 
     // Affect
     {
@@ -284,6 +368,27 @@ questions = [
     {
         "id": 40,
         "question": "I think physical pleasure can exist independently of emotional connection.",
+        "effect": {
+            "affect": -1
+        }
+    },
+    {
+        "id": 53,
+        "question": "I find sexual activity to be an effective way to relieve stress and anxiety.",
+        "effect": {
+            "affect": 1
+        }
+    },
+    {
+        "id": 54,
+        "question": "I am usually aroused by visual stimuli or explicit conversation rather than emotional cues.",
+        "effect": {
+            "affect": -1
+        }
+    },
+    {
+        "id": 55,
+        "question": "I notice that my self-esteem often fluctuates based on the approval or praise of sexual partners.",
         "effect": {
             "affect": -1
         }
